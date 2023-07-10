@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+        <div class="img-icon">
+            <img src="currency-logo.jpg" alt="currency-logo"  class="cur-logo">
+            <h1 class="header">Currency Converter</h1>
+        </div>
+        <label for="amount">Enter Amount</label>
+        <input type="number" id="amount" placeholder="0.00">
+        <div class="drop-list">
+            <div class="from">
+              <p>From</p>
+              <div class="select-box">
+                <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                <select> <!-- Options tag are inserted from JavaScript --> </select>
+              </div>
+            </div>
+            <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+            <div class="to">
+              <p>To</p>
+              <div class="select-box">
+                <img src="https://flagcdn.com/48x36/np.png" alt="flag">
+                <select> <!-- Options tag are inserted from JavaScript --> </select>
+              </div>
+            </div>
+        </div>
+        
+        <!-- <div class="text-center"> -->
+
+            <!-- convert button -->
+            <!-- <button class="btn btn-primary convert m-2" type="submit">
+                Convert
+            </button>
+            <! reset button -->
+            <!-- <button class="btn btn-primary m-2" onclick="clearVal()">
+                Reset
+            </button>  -->
+        <!-- </div> -->
+
+        <!-- <div class="exchange-rate">Getting exchange rate...</div> -->
+        <!-- <button>Exchange now</button>  -->
+        <div class="text-center">
+            <button>Exchange now</button> 
+            <!-- convert button -->
+             <!-- <button class="btn btn-primary convert m-2" type="submit">
+                Convert
+            </button> -->
+             <!-- reset button  -->
+             <!-- <button class="btn btn-primary m-2" onclick="clearVal()">
+                Reset
+            </button>  -->
+        </div>
+        <br>
+        <div class="exchange-rate">Getting exchange rate...</div>
+    </div> 
+</form>
+
+    <script src="country-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
