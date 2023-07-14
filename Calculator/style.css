@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0e3eb;
+}
+
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  height :450px;      
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: grey;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  border: 2px solid black;
+}
+
+.display {
+  height: 120px;
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  text-align: end;
+  margin-bottom: 15px;
+  font-size: 30px;
+  background-color: rgb(233, 230, 230);
+  color: black;
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+.buttons button {
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 5%;
+}
+
+.buttons button:active {
+  transform: scale(0.99);
+}
+
+.buttons .item1 {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.buttons .item3 {
+  background-color: #343434;
+  color: white;
+  border: none;
+}
+
+.buttons .item {
+  background-color: #a5a5a5;
+  border: none;
+  color: black;
+  font-size: 20px;
+} 
+
